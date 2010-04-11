@@ -112,7 +112,16 @@
 	     (then   . "^ *ならば")
 	     (but    . "^ *しかし")
 	     (and    . "^ *かつ")
-	     (examples   . "^ *例:")))))
+	     (examples   . "^ *例:")))
+    ("es" . ((feature    . "^ *Característica:")
+       (background . "^ *Antecedentes:")
+       (scenario 	 . "^ *\\(?:Esquema del \\)?[eE]scenario:")
+       (given 	 . "^ *Dado")
+       (when 	 . "^ *Cuando")
+       (then 	 . "^ *Entonces")
+       (but 	 . "^ *Pero")
+       (and 	 . "^ *Y")
+       (examples 	 . "^ *\\(?:Mas \\)?Ejemplos:")))))
 
 (defconst feature-font-lock-keywords
   '((feature      (0 font-lock-keyword-face)

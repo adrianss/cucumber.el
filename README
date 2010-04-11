@@ -23,7 +23,7 @@
 ;; Supported languages
 ;; -------------------
 ;;
-;; At the moment, Cucumber.el supports English, Russian and Finnish.
+;; At the moment, Cucumber.el supports English, Russian, Finnish and Spanish.
 ;; Translations to other languages are very welcome: fork, add your translation
 ;; to language list and send michaelklishin a pull request @ Github.
 ;;
